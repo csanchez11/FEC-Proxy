@@ -2,6 +2,9 @@ const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const path = require('path');
+const cors = require('cors');
+const router = require('./router.js');
+
 
 const port = 3000
 
@@ -15,8 +18,8 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 app.use(express.static(path.join(__dirname, '../public')))
 
+app.use('/', router);
 
-// This will retrieve and send a single product to page by selected by i
 
 
 app.listen(port, () => console.log(`App listening at http://localhost:${port}`))

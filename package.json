@@ -13,10 +13,15 @@
   "dependencies": {
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "4.17.1",
+    "faker": "^4.1.0",
     "http": "0.0.1-security",
-    "http-proxy": "1.18.0",
+    "http-proxy": "^1.18.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.20",
     "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
     "nodemon": "^2.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"

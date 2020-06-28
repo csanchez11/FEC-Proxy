@@ -1,39 +1,23 @@
-# Project Name
+# LuluLemon Clone Front End Capstone Project
 
-> Project description
+> This is a Proxy server with all files serving from AWS S3
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-
-## Table of Contents
-
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+To see the code you can visit the organization page to see the micro services.
+  - https://github.com/JJACD
 
 ## Usage
 
 > Some usage instructions
+> Use the Terminal and CD into this directory
+> From the Terminal run `npm i` to install all dependencies from package.json
+> Then run `npm run start` to start the express server
 
 ## Requirements
 
 An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
 - Node 6.13.0
-- etc
-
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install -g webpack
-npm install
-```
-
+- MongoDB
+- MySQL
